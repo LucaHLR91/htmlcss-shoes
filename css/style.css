@@ -9,6 +9,8 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+
+
 .box {
     position: relative;
     width: 100%;
@@ -21,11 +23,22 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* .claerfix {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
     
 /* /common */
 
 
 /* container  */
+
+.container {
+    position: relative;
+}
 
 #shoe1 {
     background-color: red;
@@ -48,8 +61,28 @@ body {
     text-align: center;
 }
 
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 10px;
+    position: fixed;
+}
 
 
+nav li {
+    background-color: whitesmoke;
+    list-style: none;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
 
 
 /* /container  */
